@@ -1,0 +1,54 @@
+{
+  "id": "70f5dc154cf04e48b240634fd16d6b80",
+  "task_name": "python-sudoku-solver-backtracking",
+  "trial_name": "python-sudoku-solver-backtracking__1",
+  "started_at": "2026-09-08T06:54:13.328638+00:00",
+  "finished_at": "2026-09-08T06:54:25.770632+00:00",
+  "agent_result": {
+    "status": "completed",
+    "answer": "数独求解已完成。在 `solution.txt` 文件中，解答如下：\n\n```\n534678912\n672195348\n198342567\n859761423\n426853791\n713924856\n961537284\n287419635\n345286179\n```\n\n这个解答符合要求，每行包含 9 个无空格的数字。若有其他需求，请告知！",
+    "metrics": {
+      "model_calls": 5,
+      "tool_calls": 4,
+      "tool_errors": 0,
+      "input_tokens": 9156,
+      "output_tokens": 659,
+      "elapsed_seconds": 10.486666299999342,
+      "usage_known": true
+    },
+    "n_input_tokens": 9156,
+    "n_output_tokens": 659,
+    "n_cache_tokens": null,
+    "cost_usd": null
+  },
+  "fixture_sha256": {
+    "app/puzzle.txt": "e7c832c332b3bf77165df496caaccf54f3bbac614a5fb7c6309d7518763d8a46",
+    "protected/test_data/easy_puzzle.txt": "62f68e481a81b305bf99ffb0bf419ecc72e8573f22a63f3b16a2f21fe8a95ad2",
+    "protected/test_data/hard_puzzle.txt": "a04269bee7683d46435b14b512aaa32ee73400374b995c13c384077e680d0cd5",
+    "protected/test_data/invalid_puzzle.txt": "d249f545eebf48f34b83404e4ef978db8065ed4dbc98d006817359fbcd30b21e",
+    "protected/test_data/minimal_puzzle.txt": "2cd3380b1e819e136bff4002634dc48a131fb8a1ae9dfd3877c3a14a2567ded2",
+    "protected/test_data/partial_filled.txt": "dd628c4a71dfc1d852af0916bf50202edcddd569c9c8e92e420b1b67b5fccd00"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1
+    },
+    "fixture_changes": [],
+    "reward": 1,
+    "checks_passed": 22,
+    "checks_total": 22,
+    "checks_failed": 0,
+    "checks_errors": 0,
+    "checks_skipped": 0,
+    "cleanup_incomplete": false,
+    "exit_code": 0,
+    "timed_out": false,
+    "truncated": false,
+    "details": {
+      "junit": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\python-sudoku-solver-backtracking__1\\verifier\\results.xml",
+      "stdout": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\python-sudoku-solver-backtracking__1\\verifier\\stdout.txt",
+      "stderr": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\python-sudoku-solver-backtracking__1\\verifier\\stderr.txt"
+    }
+  },
+  "exception_info": null
+}

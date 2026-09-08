@@ -1,0 +1,62 @@
+{
+  "id": "391cf7d416744d508ca4ff67a1f2a9f1",
+  "task_name": "recover-encrypted-db-credentials",
+  "trial_name": "recover-encrypted-db-credentials__1",
+  "started_at": "2026-09-08T06:55:54.986501+00:00",
+  "finished_at": "2026-09-08T06:56:36.329931+00:00",
+  "agent_result": {
+    "status": "completed",
+    "answer": "It seems there are no visible files or directories in the workspace. Without access to the raw disk blocks or any other files, I can’t proceed with the recovery task.\n\nPlease check if there are supposed to be files available for access or if there's a different area where the relevant data might be located.",
+    "metrics": {
+      "model_calls": 31,
+      "tool_calls": 30,
+      "tool_errors": 0,
+      "input_tokens": 51026,
+      "output_tokens": 392,
+      "elapsed_seconds": 39.622508699998434,
+      "usage_known": true
+    },
+    "n_input_tokens": 51026,
+    "n_output_tokens": 392,
+    "n_cache_tokens": null,
+    "cost_usd": null
+  },
+  "fixture_sha256": {
+    "db/.disk_blocks/.metadata": "d8edfff2a266f29f0ff5022d3be5b92c9225ad993bdbf59316a69752ab709471",
+    "db/.disk_blocks/block_000.bin": "0caf8d5bbd7a2afbc3369386311731003afafe92f882d54f2682eab81aac4ec5",
+    "db/.disk_blocks/block_001.bin": "c1b4898bdc272c41f6a90bfe4e4589696bc047328c88801ae16a14b2fefde9d9",
+    "db/.disk_blocks/block_002.bin": "7e1e71a19123772cee65ae4502fa2843f1f74204e1ca51ff364c0490f391726f",
+    "db/.disk_blocks/block_003.bin": "e45ae0580e8f0bea1b432e7a7c69ac18125912ff402ccf580d4ffb8fb9758816",
+    "db/.disk_blocks/block_004.bin": "cce2c62515416a66172b296b02ad850dd67cbdeadaef1cab4aa5576da603b20b",
+    "db/.disk_blocks/block_005.bin": "f397db662568ed05308b5a63df0359de14c5a16e4643441f2d484ceac21d767a",
+    "db/.disk_blocks/block_006.bin": "13b8231996b8a2e2250d3ce4151b679fb935f16619cfc005f01c254e6d1bbe50",
+    "db/.disk_blocks/block_007.bin": "f8d2b94f13e8d50f9b55972bcae00fd1d86f30788189cbe3d0b2fe78985019e3",
+    "db/.disk_blocks/block_garbage_1000.bin": "92c5c502fdb7de95fc380c9cb50a007fc94267d3fcc902156538bcee75ff8e80",
+    "db/.disk_blocks/block_garbage_255.bin": "5e9e488e010204c7a6100e1efe4f86b7e9d960d7a1e27c5011ca51c46d5c169b",
+    "db/.disk_blocks/block_garbage_256.bin": "b7437d2e40ba7831fa79e0877cffeeab0386269223ded5ea7a2138275dd96f18",
+    "db/.disk_blocks/block_garbage_999.bin": "99e676d7026e1c78c93845d545bfdb1beb3979b99d545ac3dbd309ab08ddd719",
+    "db/.recovery_notes.txt": "ca45a73c158735f45ea64a92335f550ecddd73a26e82b81799245d0a94ccd2dd"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0
+    },
+    "fixture_changes": [],
+    "reward": 0,
+    "checks_passed": 0,
+    "checks_total": 30,
+    "checks_failed": 28,
+    "checks_errors": 0,
+    "checks_skipped": 2,
+    "cleanup_incomplete": false,
+    "exit_code": 1,
+    "timed_out": false,
+    "truncated": false,
+    "details": {
+      "junit": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\recover-encrypted-db-credentials__1\\verifier\\results.xml",
+      "stdout": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\recover-encrypted-db-credentials__1\\verifier\\stdout.txt",
+      "stderr": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\recover-encrypted-db-credentials__1\\verifier\\stderr.txt"
+    }
+  },
+  "exception_info": null
+}

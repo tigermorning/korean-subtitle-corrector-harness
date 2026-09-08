@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# API 키. 실제 키를 문서·코드·커밋에 넣지 않는다.
+*.env
+openai_key.env
+# 세션 기록에는 요청 내용과 읽은 파일 일부가 들어간다. 필요한 것만 골라서 제출한다.
+harness/.sessions/
+# 9강 비교용으로 내려받은 참조 구현(harness-lab). 내 제출물이 아니라 비교 대상이다.
+harness-lab-ref/
+# 10강 고정 10문항 채점 도구. 원본 문제·정답·채점 코드가 든 캐시가 있어 통째로 제외한다.
+agent-terminal-benchmark-ref/

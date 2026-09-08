@@ -1,0 +1,54 @@
+{
+  "id": "e27a28bcd57a4645810971e2c59c1cd3",
+  "task_name": "implement-depgraph-dependency-resolver",
+  "trial_name": "implement-depgraph-dependency-resolver__1",
+  "started_at": "2026-09-08T06:57:08.499487+00:00",
+  "finished_at": "2026-09-08T06:58:46.451482+00:00",
+  "agent_result": {
+    "status": "context_limit",
+    "answer": "Conversation exceeds the character budget; start a new session or explicitly summarize",
+    "metrics": {
+      "model_calls": 21,
+      "tool_calls": 21,
+      "tool_errors": 8,
+      "input_tokens": 250696,
+      "output_tokens": 9881,
+      "elapsed_seconds": 96.31492639999851,
+      "usage_known": true
+    },
+    "n_input_tokens": 250696,
+    "n_output_tokens": 9881,
+    "n_cache_tokens": null,
+    "cost_usd": null
+  },
+  "fixture_sha256": {
+    "protected/packages/flask.manifest": "9249b33f3805959881188d9c6bbf7faa5c5357fa54dce3ca44dcfdfb97f21c63",
+    "protected/packages/requests.manifest": "c7e8d6dbfe2c17dc35672069037c143d048e3ce022eec5e7043486d8adfffec7",
+    "protected/packages/werkzeug.manifest": "96cd91cb8bfdec3a8784b95cce0b688abcde78bc79a370761401e03270f13e3b"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0
+    },
+    "fixture_changes": [],
+    "reward": 0,
+    "checks_passed": 3,
+    "checks_total": 13,
+    "checks_failed": 10,
+    "checks_errors": 0,
+    "checks_skipped": 0,
+    "cleanup_incomplete": false,
+    "exit_code": 1,
+    "timed_out": false,
+    "truncated": false,
+    "details": {
+      "junit": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\implement-depgraph-dependency-resolver__1\\verifier\\results.xml",
+      "stdout": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\implement-depgraph-dependency-resolver__1\\verifier\\stdout.txt",
+      "stderr": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\jobs\\provided-baseline\\implement-depgraph-dependency-resolver__1\\verifier\\stderr.txt"
+    }
+  },
+  "exception_info": {
+    "exception_type": "AgentIncomplete",
+    "message": "context_limit"
+  }
+}

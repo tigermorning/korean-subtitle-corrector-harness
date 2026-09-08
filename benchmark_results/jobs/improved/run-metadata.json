@@ -1,0 +1,46 @@
+{
+  "variant": "improved",
+  "kind": "agent_evaluation",
+  "suite_id": "terminal-bench-pro-local-port-v2",
+  "revision": "874af409da6aafebccbf3bc5bb41a2fa4d78784d",
+  "provider": "openai",
+  "port_version": "2.0.0",
+  "local_corrections": [
+    "sudoku-explicit-io-contract-and-clue-checks",
+    "blockchain-original-ledger-oracle",
+    "immutable-input-fixtures"
+  ],
+  "execution_mode": "local-port",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.13.14",
+  "hostlimits": "unrestricted",
+  "model": "gpt-4o-mini",
+  "attempts": 1,
+  "expected_tasks": [
+    "extract-paper-metadata-to-json",
+    "python-sudoku-solver-backtracking",
+    "detect-corrupted-blockchain-transaction",
+    "implement-go-board-analyzer",
+    "python-sokoban-bfs-solver",
+    "recover-encrypted-db-credentials",
+    "advanced-json-to-rfc4180-csv-converter",
+    "implement-depgraph-dependency-resolver",
+    "implement-lz77-file-compressor",
+    "implement-nonogram-puzzle-solver"
+  ],
+  "manifest_sha256": "21f333a94929d6ce9cf0e184a8865ed5d5feca1cc33b3c6536b771ae2edb30a6",
+  "agent_source_path": "C:\\Users\\user\\Documents\\harness-design-kit\\agent-terminal-benchmark-ref\\agent-terminal-benchmark\\my_agent.py",
+  "source_sha256": "d1d2323f8fed552d6c99e46802ca274b9d1975b7420db20655f7a9267413c38d",
+  "code_sha256": "d1d2323f8fed552d6c99e46802ca274b9d1975b7420db20655f7a9267413c38d",
+  "agent_import_path": "my_agent:solve_task",
+  "limits": {
+    "max_steps": 40,
+    "max_seconds": 300.0,
+    "command_timeout": 10,
+    "max_output_tokens": 10000
+  },
+  "started_at": "2026-09-08T07:10:50.868425+00:00",
+  "status": "finished",
+  "finished_at": "2026-09-08T07:12:34.486239+00:00",
+  "exit_code": 0
+}
